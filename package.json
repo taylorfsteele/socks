@@ -1,0 +1,20 @@
+{
+  "name": "socks",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun run index.ts"
+  },
+  "devDependencies": {
+    "@flydotio/dockerfile": "latest",
+    "@types/bun": "latest",
+    "@types/figlet": "^1.5.8"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "figlet": "^1.7.0"
+  }
+}
