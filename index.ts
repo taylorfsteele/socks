@@ -3,10 +3,10 @@ import {
   Collection,
   Events,
   GatewayIntentBits,
-  SlashCommandBuilder,
-  type Interaction,
   REST,
   Routes,
+  SlashCommandBuilder,
+  type Interaction,
 } from 'discord.js';
 import * as commands from './commands';
 
